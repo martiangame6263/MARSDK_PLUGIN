@@ -1,0 +1,11 @@
+framework module EPSDK {
+  umbrella header "EPSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module EPSDK.Swift {
+  header "EPSDK-Swift.h"
+  requires objc
+}
