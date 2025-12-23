@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDK_TAKU'
-  s.version          = '6.4.93'
+  s.version          = '6.4.93.1'
   s.summary          = 'topon广告插件'
   s.description  = <<-DESC
 火星人打包工具sdk 
@@ -14,7 +14,7 @@ s.source           = { :git => 'https://github.com/martiangame6263/MARSDKS.git',
 s.platform     = :ios
 s.platform     = :ios, "9.0" #iOS 支持的最低级别,这里最低9.0
 s.resource_bundles = {
-     'MARSDKCROSSPUSH' => ['MARSDK_TAKU/Assets/*']
+     'MARSDK_TAKU' => ['MARSDK_TAKU/Assets/*']
  }
 s.vendored_libraries =  'MARSDK_TAKU/Classes/*.a'
 s.vendored_frameworks  = 'MARSDK_TAKU/SDK/*.framework'

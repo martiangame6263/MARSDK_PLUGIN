@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDK_UM'
-  s.version          = '7.4.7'
+  s.version          = '7.4.7.1'
   s.summary          = '友盟统计插件'
   s.description  = <<-DESC
 火星人打包工具sdk 
@@ -14,7 +14,7 @@ s.source           = { :git => 'https://github.com/martiangame6263/MARSDKS.git',
 s.platform     = :ios
 s.platform     = :ios, "9.0" #iOS 支持的最低级别,这里最低9.0
 s.resource_bundles = {
-     'MARSDKCROSSPUSH' => ['MARSDK_UM/Assets/*']
+     'MARSDK_UM' => ['MARSDK_UM/Assets/*']
  }
 s.vendored_libraries =  'MARSDK_UM/Classes/*.a'
 s.vendored_frameworks  = 'MARSDK_UM/SDK/*.framework'
