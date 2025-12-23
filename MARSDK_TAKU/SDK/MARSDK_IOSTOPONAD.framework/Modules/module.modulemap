@@ -1,0 +1,4 @@
+framework module MARSDK_IOSTOPONAD {
+  header "MARSDK_IOSTOPONAD-Swift.h"
+  requires objc
+}
