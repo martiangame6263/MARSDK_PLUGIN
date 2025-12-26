@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDK_TAKU'
-  s.version          = '6.4.93.1'
+  s.version          = '6.4.94.1'
   s.summary          = 'topon广告插件'
   s.description  = <<-DESC
 火星人打包工具sdk 
@@ -19,7 +19,7 @@ s.resource_bundles = {
 s.vendored_libraries =  'MARSDK_TAKU/Classes/*.a'
 s.vendored_frameworks  = 'MARSDK_TAKU/SDK/*.framework'
 s.frameworks = "AVFoundation","AdSupport","CoreHaptics","CoreLocation","CoreML","CoreMedia","CoreMotion","CoreTelephony","DeviceCheck","JavaScriptCore","MobileCoreServices","SafariServices","StoreKit","SystemConfiguration","WebKit"
-s.ios.library = "z2","c++","resolv.9","sqlite3","xml2","z"
+s.ios.library = "bz2","c++","resolv.9","sqlite3","xml2","z"
 
 s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
