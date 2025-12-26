@@ -19,7 +19,7 @@ s.resource_bundles = {
 s.vendored_libraries =  'MARSDK_TAKU/Classes/*.a'
 s.vendored_frameworks  = 'MARSDK_TAKU/SDK/*.framework'
 s.frameworks = "AVFoundation","AdSupport","CoreHaptics","CoreLocation","CoreML","CoreMedia","CoreMotion","CoreTelephony","DeviceCheck","JavaScriptCore","MobileCoreServices","SafariServices","StoreKit","SystemConfiguration","WebKit"
-s.ios.library = "bz2","c++","resolv.9","sqlite3","xml2","z"
+s.ios.library = "z2","c++","resolv.9","sqlite3","xml2","z"
 
 s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
