@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDK_UM'
-  s.version          = '7.4.8'
+  s.version          = '7.4.7.1'
   s.summary          = '友盟统计插件'
   s.description  = <<-DESC
 火星人打包工具sdk 
@@ -19,7 +19,7 @@ s.resource_bundles = {
 s.vendored_libraries =  'MARSDK_UM/Classes/*.a'
 s.vendored_frameworks  = 'MARSDK_UM/SDK/*.framework'
 s.frameworks = "SystemConfiguration","CoreTelephony"
-s.ios.library = "bz","sqlite3"
+s.ios.library = "z","sqlite3"
 
 s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end

@@ -18,8 +18,8 @@ s.resource_bundles = {
  }
 s.vendored_libraries =  'MARSDKEPSDK/Classes/*.a'
 s.vendored_frameworks  = 'MARSDKEPSDK/SDK/*.framework'
-s.source_files = 'MARSDKEPSDK/Classes/*.{h,m,swift}'
-s.public_header_files = 'MARSDKEPSDK/Classes/*.h'
+# s.source_files = 'MARSDKEPSDK/Classes/*.{h,m,swift}'
+# s.public_header_files = 'MARSDKEPSDK/Classes/*.h'
 s.frameworks = "Security","CoreGraphics","WebKit","CoreFoundation","StoreKit","Foundation","UIKit"
 s.ios.library = "z"
 

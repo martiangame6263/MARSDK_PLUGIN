@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDK_GENGINE'
-  s.version          = '5.0.12'
+  s.version          = '5.0.13'
   s.summary          = '引力引擎统计插件'
   s.description  = <<-DESC
 火星人打包工具sdk 
@@ -17,7 +17,7 @@ s.platform     = :ios, "9.0" #iOS 支持的最低级别,这里最低9.0
 s.vendored_libraries =  'MARSDK_GENGINE/Classes/*.a'
 s.vendored_frameworks  = 'MARSDK_GENGINE/SDK/*.framework'
 s.frameworks = "Security","AdServices","SystemConfiguration","AppTrackingTransparency","AdSupport"
-s.ios.library = "bz","sqlite3"
+s.ios.library = "z","sqlite3"
 
 s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end

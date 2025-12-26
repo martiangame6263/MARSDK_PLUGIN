@@ -15,10 +15,10 @@
 
 // UIApplicationDelegate事件
 - (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
-- (void)applicationWillResignActive:(UIApplication *)application;
-- (void)applicationDidEnterBackground:(UIApplication *)application;
-- (void)applicationWillEnterForeground:(UIApplication *)application;
-- (void)applicationDidBecomeActive:(UIApplication *)application;
+- (void)applicationWillResignActive:(UIApplication *)application;//应用即将失去焦点（如来电、锁屏）
+- (void)applicationDidEnterBackground:(UIApplication *)application;//应用进入后台
+- (void)applicationWillEnterForeground:(UIApplication *)application;//应用返回前台
+- (void)applicationDidBecomeActive:(UIApplication *)application;//应用恢复焦点（如返回前台、结束中断）
 - (void)applicationWillTerminate:(UIApplication *)application;
 
 // 推送通知相关事件

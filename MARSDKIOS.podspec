@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'MARSDKIOS'
-  s.version          = '6.2.3.1'
+  s.version          = '6.2.3.2'
   s.summary          = '火星人打包工具'
   s.description      = <<-DESC
 火星人打包工具  BUGLY
